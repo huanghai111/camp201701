@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>信用卡申请表</title>
+		<style>
+			div{
+				width:500px;
+				margin:2px;
+				background:white;
+			}
+			div div{
+				margin:15px;
+				border:0px solid black;
+				padding:0px 0px 0px 18px;
+				width:100%;
+				background:none;
+				text-align:left;
+			}
+			span{
+				color:red;
+			}
+			th{
+				width:137px
+			}
+			.float{
+				width:320px;
+				height:120px;
+				float:right
+				} 
+			.font{
+				font-size:20px;
+				font-weight: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div cass="float">
+			<tr>
+				<font class="font">这是工商银行信用卡的注册页:</font>
+			</tr>
+			<img src="img/1.jpg">
+		</div>
+		<div>
+			<br />
+			<br />
+			<font class="font">这是我的改进意见:</font>
+		</div>
+		<br />
+		
+		<div>
+			<h2>填写身份信息</h2>
+			<div>
+				<tr>
+					<th>
+						<span>*</span>中文姓名：
+					</th>
+					<td>
+						<input title="请输入您的中文姓名" type="text" name="APLY_PSN_NM" id="baseName" require="1" tit="中文姓名" />
+					</td>	
+				</tr>
+			</div>
+			<div>
+				<tr>
+					<th>
+						<span>*</span>姓名拼音：
+					</th>	
+					<td>
+						<input title="您请写姓名的拼音" type="text" name="Aply_Psn_CPA_FullNm" id="baseSpell" require="1" tit="姓名拼音" />
+					</td>
+				</tr>			
+			</div>
+			<div>
+				<tr>
+					<th>&nbsp;&nbsp;证件类型：</th>
+					<td>
+						<select id="CardType">
+							<option>身份证</option>
+							<option>护照</option>
+							<option>港澳台居民往来通行证</option>
+							<option>外国人永久居留证</option>
+						</select>
+					</td>
+				</tr>
+			</div>
+			<div>
+				<tr>
+					<th><span>*</span>证件号码：</th>
+					<td>
+						<input title="请输入数字" type="text" name="Aply_Psn_Crdt_No" maxlength="18" value="" id="baseIDCardTypeNum" require="1" tit="证件号码"  />
+					</td>
+				</tr>
+			</div>
+		</div>
+		<div>
+			<h2>选择卡种</h2>
+			<div>
+				<tr>
+					<th><span>*</span>您所在省市:</th>
+				<td>  <select id="selProvince" name="province" size="1">
+					    <option value="where">北京市</option>
+					    <option value="where">上海市</option>
+					    <option value="where">湖北省</option>
+					    <option value="where">湖南省</option>
+					    <option value="where">河北省</option>
+					    <option value="where">河南省</option>
+                      </select>
+                      <select id="selCity" name="city"> 
+                       	<option value="where">北京市</option>
+					    <option value="where">武汉市</option>
+					    <option value="where">廊坊市</option>
+                      </select>
+				</td>
+			</div>
+			<div>
+				<tr>
+					<th><span>*</span>您希望申请的卡种是：</th>
+					<td>
+						<button>请选择</button>
+					</td>
+				</tr>
+			</div>
+		</div>
+		<div>
+			<h2>验证</h2>
+			<div>
+				<tr>
+					<th><span>*</span>手机号码：</th>
+					<td>
+						<button>获取短信验证码</button>
+					</td>
+				</tr>
+			</div>
+			<div>
+				<tr>
+					<th>短信验证码：</th>
+					<input title="请输入短信上的验证码" type="number">
+				</tr>
+			<div>
+			<button>提交</button>
+		</div>
+	</body>
+</html>
