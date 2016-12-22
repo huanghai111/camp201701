@@ -1,0 +1,137 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, li { 
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px/1.33 "Microsoft Yahei",tahoma,"宋体",sans-serif;
+}
+.hide { 
+	display: none;
+}
+.inner { 
+	width: 1000px; 
+	margin: 0 auto;
+}
+
+.hd { 
+	height: 95px;
+	background-color: #282828;
+}
+.hd .inner { 
+	height: 95px;
+}
+.hd h1, .hd h1 a { 
+	float: left;
+}
+.hd h1 { 
+	margin-left: -60px;
+}
+.hd h1 a { 
+	width: 260px; 
+	height: 95px; 
+	background-image: url(../img/logo.jpg); 
+	text-indent: -9999px; 
+	overflow: hidden;
+}
+.hd p { 
+	float: right; 
+	margin: 38px 40px 0 0; 
+	font-size: 14px; 
+	color: #fff;
+}
+.hd p a { 
+	margin: 0 10px; 
+	color: #fff; 
+	text-decoration: none;
+}
+
+.bd { 
+	height: 507px; 
+	border-bottom: 312px solid #d3d3d4; 
+	background: #f4f4f4 url(../img/bg.jpg) 50% 0 no-repeat;
+}
+.bd .inner { 
+	position: relative; 
+	height: 507px;
+}
+.bd .down { 
+	position: absolute; 
+	left: 654px; 
+	top: 280px; 
+	width: 225px; 
+	height: 83px; 
+	text-indent: -9999px; 
+	overflow: hidden;
+}
+.bd .date { 
+	position: absolute; 
+	left: 654px; 
+	top: 375px; 
+	color: #676767;
+}
+.bd .date em { 
+	font-style: normal; 
+	color: #5f9b04;
+}
+.bd ul { 
+	position: absolute; 
+	left: 0; top: 507px; 
+	height: 210px; 
+	padding-top: 42px; 
+	list-style-type: none;
+}
+.bd li { 
+	float: left; 
+	width: 158px; 
+	height: 210px; 
+	padding: 0 20px; 
+	text-align:justify;
+}
+.bd h3 { 
+	margin-bottom: 10px; 
+	text-align: center; 
+	font: 18px/1 "Microsoft Yahei";
+}
+.bd i { 
+	display: block; 
+	width: 96px; 
+	height: 96px; 
+	margin: 0 auto 10px; 
+	background-image:url(../img/spr.png);
+}
+.bd .i-2 { 
+	background-position: 0 -96px;
+}
+.bd .i-3 { 
+	background-position: 0 -192px;
+}
+.bd .i-4 { 
+	background-position: 0 -288px;
+}
+.bd .i-5 { 
+	width: 101px; 
+	background-position: 0 bottom;
+}
+.bd ul p { 
+	margin: 0 auto; 
+	line-height: 1.6; 
+	color: #656565;
+}
+.bd .w-1 { 
+	width: 126px;
+}
+.bd .w-2 { 
+	width: 120px;
+}
+.bd .w-3 { 
+	width: 133px;
+}
+
+.ft { 
+	padding: 30px 0; 
+	border-top: 1px solid #bebdbd; 
+	line-height: 28px; 
+	text-align: center; 
+	color: #9a9b9b; 
+	background-color: #d3d3d4;
+}
